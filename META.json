@@ -1,0 +1,54 @@
+{
+   "abstract" : "Yet another Perl5 installation manager",
+   "author" : [
+      "Tokuhiro Matsuno"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-plenv",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.38",
+            "Module::Build::Pluggable" : "0.04"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Perl::Build" : "0.01",
+            "perl" : "5.008005"
+         }
+      }
+   },
+   "provides" : {
+      "App::plenv" : {
+         "file" : "lib/App/plenv.pm",
+         "version" : "v1.0.9"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v1.0.9"
+}

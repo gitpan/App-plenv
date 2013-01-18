@@ -1,0 +1,30 @@
+---
+abstract: 'Yet another Perl5 installation manager'
+author:
+  - 'Tokuhiro Matsuno'
+build_requires:
+  Test::More: 0.98
+  Test::Requires: 0
+configure_requires:
+  Module::Build: 0.38
+  Module::Build::Pluggable: 0.04
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-plenv
+no_index:
+  directory:
+    - inc
+provides:
+  App::plenv:
+    file: lib/App/plenv.pm
+    version: v1.0.9
+requires:
+  Perl::Build: 0.01
+  perl: 5.008005
+resources:
+  license: http://dev.perl.org/licenses/
+version: v1.0.9
