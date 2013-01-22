@@ -28,7 +28,7 @@
       "configure" : {
          "requires" : {
             "Module::Build" : "0.38",
-            "Module::Build::Pluggable" : "0.04"
+            "Module::Build::Pluggable" : "0.05"
          }
       },
       "runtime" : {
@@ -43,7 +43,7 @@
    "provides" : {
       "App::plenv" : {
          "file" : "lib/App/plenv.pm",
-         "version" : "v1.2.0"
+         "version" : "v1.2.1"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "v1.2.0"
+   "version" : "v1.2.1"
 }
