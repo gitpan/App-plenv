@@ -21,12 +21,13 @@ no_index:
 provides:
   App::plenv:
     file: lib/App/plenv.pm
-    version: v1.3.1
+    version: v1.4.0
 requires:
-  Perl::Build: 0.01
+  App::cpanminus: 0
+  Perl::Build: 0.05
   Pod::Find: 0
   Pod::Usage: 0
   perl: 5.008005
 resources:
   license: http://dev.perl.org/licenses/
-version: v1.3.1
+version: v1.4.0
